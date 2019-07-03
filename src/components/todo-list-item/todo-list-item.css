@@ -1,0 +1,21 @@
+.todo-list-item {
+    margin-left: 1rem;
+    padding-right: 1rem;
+}
+
+.todo-list-item.done {
+    text-decoration: line-through;
+}
+
+.todo-list-item.important {
+    color: steelblue;
+    font-weight: bold;
+}
+
+.todo-list-item-label {
+    word-break: break-all;
+}
+
+.todo-list-item-actions {
+    min-width: 76px;
+}
